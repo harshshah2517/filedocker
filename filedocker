@@ -1,0 +1,8 @@
+#getting base image ubuntu
+FROM ubuntu
+
+MAINTAINER HARSH SHAH <HARSHSHAH2517@GMAIL.COM>
+
+RUN apt-get update
+
+CMD ["echo", "hello world...! from my first docker image"] 
